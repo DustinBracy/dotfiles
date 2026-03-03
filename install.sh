@@ -3,7 +3,9 @@
 yay -S hyprland \
     hyprlock \
     hyprpaper \
-    hyprlauncher \
+    fuzzel \
+    foot \
+    fzf \
     hyprpicker \
     waybar \
     swaync \
@@ -15,7 +17,8 @@ yay -S hyprland \
     hyprshot \
     qt5-wayland \
     qt6-wayland \
-    kitty \
     pipewire-pulse \
     pavucontrol \
     ttf-sourcecodepro-nerd 
+    # hyprlauncher \
+    # kitty \
