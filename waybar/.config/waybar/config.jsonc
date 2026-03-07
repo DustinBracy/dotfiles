@@ -31,7 +31,6 @@
     "idle_inhibitor",
     "pulseaudio",
     "network",
-    "power-profiles-daemon",
     "cpu",
     "memory",
     "temperature",
@@ -42,6 +41,7 @@
     "battery#bat2",
     "clock",
     "tray",
+    "power-profiles-daemon",
     "custom/power"
   ],
 
@@ -223,15 +223,12 @@
   },
 
   "cpu": {
-    "format": "{usage}%", // icon: nf-fa-memory",
+    "format": "{usage}% ", // icon: nf-fa-memory",
     // "format-icons",
     "tooltip": false
   },
   "memory": {
-    "format": "{percentage}% {icon}", // Icon: nf-fa-memory,
-    "format-icons": {
-      "default": "󰍛" // Icon: nf-fa-memory
-    },
+    "format": "{percentage}% ", // Icon: nf-fa-memory,
     "interval": 30 // default: 30
   },
   "temperature": {
@@ -280,11 +277,11 @@
   "network": {
     // "interface": "wlp2*", // (Optional) To force the use of this interface
     "format-wifi": "{essid} ({signalStrength}%) ",
-    "format-ethernet": "{ipaddr}/{cidr} ",
-    "tooltip-format": "{ifname} via {gwaddr} ",
-    "format-linked": "{ifname} (No IP) ",
-    "format-disconnected": "Disconnected ⚠",
-    "format-alt": "{ifname}: {ipaddr}/{cidr}"
+    "format-ethernet": "{ipaddr}/{cidr} ",
+    "tooltip-format": "{ifname} via {gwaddr} ",
+    "format-linked": "{ifname} (No IP) ",
+    "format-disconnected": "Disconnected 󰈂",
+    "format-alt": "{ifname}: {ipaddr}/{cidr} "
   },
   "pulseaudio": {
     // "scroll-step": 1, // %, can be a float
